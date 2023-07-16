@@ -31,7 +31,8 @@ amazon-linux-extras install epel
 #Install Java: 
 amazon-linux-extras install java-openjdk11
 
-yum install jenkins 
+#yum install jenkins 
+yum install jenkins --nogpgcheck
 
 #Start Jenkins:
 
